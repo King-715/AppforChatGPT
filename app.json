@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "first-ui",
-    "slug": "first-ui",
+    "name": "Praxia",
+    "slug": "praxia",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -21,10 +21,20 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.kevinlee715.firstui"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "packagerOpts": {
+      "config": "metro.config.js"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "a4f234f8-c21b-4e8e-a19c-c671ea3caa45"
+      }
+    },
+    "owner": "kevinlee715"
   }
 }
